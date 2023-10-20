@@ -44,12 +44,6 @@ require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
  ```
  composer require acquia/drupal-recommended-settings
  ```
- 
-- Update BLT references from below settings files with Recommended Settings:
-  - default.local.settings.php
-  - local.settings.php update use statement from
-  ``use Acquia\Blt\Robo\Common\EnvironmentDetector;`` to
-  ``use Acquia\Drupal\RecommendedSettings\Helpers\EnvironmentDetector;``
 
 # License
 
